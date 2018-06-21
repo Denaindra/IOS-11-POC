@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		661DE4CC20DB80D3004E8D0A /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661DE4CB20DB80D3004E8D0A /* FirstViewController.swift */; };
+		661DE4CE20DB80DE004E8D0A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661DE4CD20DB80DE004E8D0A /* SecondViewController.swift */; };
+		661DE4D020DB80EC004E8D0A /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661DE4CF20DB80EC004E8D0A /* ThirdViewController.swift */; };
 		6672617B20D13C3F000234E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6672617A20D13C3F000234E8 /* AppDelegate.swift */; };
 		6672617D20D13C3F000234E8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6672617C20D13C3F000234E8 /* ViewController.swift */; };
 		6672618020D13C3F000234E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6672617E20D13C3F000234E8 /* Main.storyboard */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		661DE4CB20DB80D3004E8D0A /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		661DE4CD20DB80DE004E8D0A /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		661DE4CF20DB80EC004E8D0A /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 		6672617720D13C3F000234E8 /* Lynda tutorials.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lynda tutorials.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6672617A20D13C3F000234E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6672617C20D13C3F000234E8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +41,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		661DE4C620DB7AD0004E8D0A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				661DE4CB20DB80D3004E8D0A /* FirstViewController.swift */,
+				661DE4CD20DB80DE004E8D0A /* SecondViewController.swift */,
+				661DE4CF20DB80EC004E8D0A /* ThirdViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		6672616E20D13C3F000234E8 = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +70,7 @@
 		6672617920D13C3F000234E8 /* Lynda tutorials */ = {
 			isa = PBXGroup;
 			children = (
+				661DE4C620DB7AD0004E8D0A /* ViewControllers */,
 				6672617A20D13C3F000234E8 /* AppDelegate.swift */,
 				6672617C20D13C3F000234E8 /* ViewController.swift */,
 				6672617E20D13C3F000234E8 /* Main.storyboard */,
@@ -136,6 +153,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				661DE4CE20DB80DE004E8D0A /* SecondViewController.swift in Sources */,
+				661DE4CC20DB80D3004E8D0A /* FirstViewController.swift in Sources */,
+				661DE4D020DB80EC004E8D0A /* ThirdViewController.swift in Sources */,
 				6672617D20D13C3F000234E8 /* ViewController.swift in Sources */,
 				6672617B20D13C3F000234E8 /* AppDelegate.swift in Sources */,
 			);
