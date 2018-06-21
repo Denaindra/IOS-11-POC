@@ -17,21 +17,14 @@ struct cellTempData {
 
 class TableViewController: UITableViewController {
     
-    
-    
     private var tableViewData = [cellTempData]()
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        
         tableViewData = [cellTempData(opened: false, title: "Title1", sectionData: ["Cell 1","Cell 2","Cell 3"])
-            ,cellTempData(opened: false, title: "Title1", sectionData: ["Cell 1","Cell 2","Cell 3"])
-            ,cellTempData(opened: false, title: "Title1", sectionData: ["Cell 1","Cell 2","Cell 3"])
-            ,cellTempData(opened: false, title: "Title1", sectionData: ["Cell 1","Cell 2","Cell 3"])
+            ,cellTempData(opened: false, title: "Title 2 ", sectionData: ["Cell 1","Cell 2","Cell 3"])
+            ,cellTempData(opened: false, title: "Title 3 ", sectionData: ["Cell 1","Cell 2","Cell 3"])
+            ,cellTempData(opened: false, title: "Title 4 ", sectionData: ["Cell 1","Cell 2","Cell 3"])
             ,cellTempData(opened: false, title: "Title1", sectionData: ["Cell 1","Cell 2","Cell 3"])]
-        
-        
     }
     
     override func didReceiveMemoryWarning() {
