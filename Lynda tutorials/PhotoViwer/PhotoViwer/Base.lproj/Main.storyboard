@@ -71,7 +71,7 @@
                                 <items>
                                     <barButtonItem title="Note" id="3OE-Gs-mzO">
                                         <connections>
-                                            <segue destination="RTp-XT-Tx0" kind="presentation" id="5Ln-5M-sRN"/>
+                                            <segue destination="RTp-XT-Tx0" kind="presentation" id="Qh1-wp-OH7"/>
                                         </connections>
                                     </barButtonItem>
                                 </items>
